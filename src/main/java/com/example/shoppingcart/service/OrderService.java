@@ -1,4 +1,4 @@
-package service;
+package com.example.shoppingcart.service;
 
 public class OrderService {
 }

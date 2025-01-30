@@ -1,4 +1,10 @@
-package repository;
+package com.example.shoppingcart.repository;
 
-public class ProductRepository {
+import com.example.shoppingcart.model.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface ProductRepository  extends JpaRepository<Product, Long> {
+
 }

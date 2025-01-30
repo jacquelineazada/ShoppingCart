@@ -1,4 +1,4 @@
-package controller;
+package com.example.shoppingcart.controller;
 
 public class OrderController {
 }
